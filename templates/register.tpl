@@ -15,7 +15,7 @@
 					<label for="email" class="col-lg-4 control-label">Email-Adresse</label>
 					<div class="col-lg-8">
 						<div class="input-group">
-							<input class="form-control" type="text" placeholder="Enter Email Address" name="email" id="email" />
+							<input class="form-control" type="text" placeholder="Email-Adresse eingeben" name="email" id="email" />
 					        <span class="input-group-addon">
 					        	<span id="email-notify"><i class="icon icon-circle-blank"></i></span>
 					        </span>
@@ -27,7 +27,7 @@
 					<label for="username" class="col-lg-4 control-label">Benutzername</label>
 					<div class="col-lg-8">
 						<div class="input-group">
-							<input class="form-control" type="text" placeholder="Enter Username" name="username" id="username" />
+							<input class="form-control" type="text" placeholder="Benutzername eingeben" name="username" id="username" />
 					        <span class="input-group-addon">
 					        	<span id="username-notify"><i class="icon icon-circle-blank"></i></span>
 					        </span>
@@ -51,7 +51,7 @@
 					<label for="password-confirm" class="col-lg-4 control-label">Passwort bestätigen</label>
 					<div class="col-lg-8">
 						<div class="input-group">
-							<input class="form-control" type="password" placeholder="Passwort zur bestätigung erneut eingeben" name="password-confirm" id="password-confirm" />
+							<input class="form-control" type="password" placeholder="Passwort zur Bestätigung erneut eingeben" name="password-confirm" id="password-confirm" />
 					        <span class="input-group-addon">
 					        	<span id="password-confirm-notify"><i class="icon icon-circle-blank"></i></span>
 					        </span>
