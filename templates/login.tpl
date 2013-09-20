@@ -1,9 +1,9 @@
 <ol class="breadcrumb">
 	<li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-		<a href="/" itemprop="url"><span itemprop="title">Home</span></a>
+		<a href="/" itemprop="url"><span itemprop="title">Übersicht</span></a>
 	</li>
 	<li class="active" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-		<span itemprop="title">Login</span>
+		<span itemprop="title">Anmelden</span>
 	</li>
 </ol>
 
@@ -13,18 +13,18 @@
 		<div class="well well-lg">
 			<div class="alert alert-danger" id="login-error-notify" style="display:none">
 				<button type="button" class="close" data-dismiss="alert">&times;</button>
-				<strong>Failed Login Attempt</strong> <p></p>
+				<strong>Anmeldeversuch fehlgeschlagen</strong> <p></p>
 			</div>
 			
 			<form class="form-horizontal" role="form">
 				<div class="form-group">
-					<label for="username" class="col-lg-2 control-label">Username</label>
+					<label for="username" class="col-lg-2 control-label">Benutzername</label>
 					<div class="col-lg-10">
 						<input class="form-control" type="text" placeholder="Enter Username" name="username" id="username" />
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="password" class="col-lg-2 control-label">Password</label>
+					<label for="password" class="col-lg-2 control-label">Passwort</label>
 					<div class="col-lg-10">
 						<input class="form-control" type="password" placeholder="Enter Password" name="password" id="password" />
 					</div>
@@ -33,7 +33,7 @@
 					<div class="col-lg-offset-2 col-lg-10">
 						<div class="checkbox">
 						<label>
-							<input type="checkbox"> Remember me
+							<input type="checkbox"> Eingeloggt bleiben
 						</label>
 						</div>
 					</div>
