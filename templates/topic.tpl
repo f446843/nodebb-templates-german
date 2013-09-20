@@ -1,7 +1,7 @@
 <div class="topic">
 	<ol class="breadcrumb">
 		<li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
-			<a href="/" itemprop="url"><span itemprop="title">Home</span></a>
+			<a href="/" itemprop="url"><span itemprop="title">Übersicht</span></a>
 		</li>
 		<li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
 			<a href="/category/{category_slug}" itemprop="url"><span itemprop="title">{category_name}</span></a>
@@ -27,12 +27,12 @@
 
 						<div class="topic-buttons">
 							<div class="btn-group">
-								<button class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" type="button" title="Posted by {main_posts.username}">
+								<button class="btn btn-sm btn-default dropdown-toggle" data-toggle="dropdown" type="button" title="geschrieben von {main_posts.username}">
 									<span class="username-field" href="/user/{main_posts.userslug}">{main_posts.username}&nbsp;</span>
 									<span class="caret"></span>
 								</button>
 							    <ul class="dropdown-menu">
-									<li><a href="/user/{main_posts.userslug}"><i class="icon-user"></i> Profile</a></li>
+									<li><a href="/user/{main_posts.userslug}"><i class="icon-user"></i> Profil</a></li>
 									<li><div class="chat"><i class="icon-comment"></i> Chat</div></li>
 							    </ul>
 							</div>
@@ -46,7 +46,7 @@
 							</div>
 							<div class="btn-group">
 								<button class="btn btn-sm btn-default quote" type="button" title="Quote"><i class="icon-quote-left"></i></button>
-								<button class="btn btn-sm btn-primary btn post_reply" type="button">Reply <i class="icon-reply"></i></button>
+								<button class="btn btn-sm btn-primary btn post_reply" type="button">Antworten <i class="icon-reply"></i></button>
 							</div>
 
 							<div class="btn-group pull-right post-tools">
@@ -82,7 +82,7 @@
 					<a href="/user/{posts.userslug}">
 						<img src="{posts.picture}" align="left" class="img-thumbnail" />
 					</a>
-					<span class="label label-danger {posts.show_banned}">banned</span>
+					<span class="label label-danger {posts.show_banned}">gesperrt</span>
 				</div>
 				<div class="col-md-11">
 					<div class="post-block">
@@ -101,13 +101,13 @@
 
 							<div class="btn-group">
 								<button class="favourite btn btn-sm btn-default {posts.fav_button_class}" type="button">
-									<span class="favourite-text">Favourite</span>
+									<span class="favourite-text">Favorisieren</span>
 									<span class="post_rep_{posts.pid}">{posts.post_rep} </span><i class="{posts.fav_star_class}"></i>
 								</button>
 							</div>
 							<div class="btn-group">
 								<button class="btn btn-sm btn-default quote" type="button" title="Quote"><i class="icon-quote-left"></i></button>
-								<button class="btn btn-sm btn-primary btn post_reply" type="button">Reply <i class="icon-reply"></i></button>
+								<button class="btn btn-sm btn-primary btn post_reply" type="button">Antworten <i class="icon-reply"></i></button>
 							</div>
 
 							<div class="btn-group pull-right post-tools">
@@ -142,7 +142,7 @@
 	<hr />
 
 	<div class="topic-main-buttons">
-		<button id="post_reply" class="btn btn-primary btn-lg post_reply" type="button">Reply</button>
+		<button id="post_reply" class="btn btn-primary btn-lg post_reply" type="button">Antworten</button>
 		<div class="btn-group pull-right" id="thread-tools" style="visibility: hidden;">
 			<button class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" type="button">Thread Tools <span class="caret"></span></button>
 			<ul class="dropdown-menu">

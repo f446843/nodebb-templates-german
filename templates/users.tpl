@@ -1,16 +1,16 @@
 <div class="users">
 	<ul class="nav nav-pills">
-		<li class=''><a href='/users/latest'>Latest Users</a></li>
-		<li class=''><a href='/users/sort-posts'>Top Posters</a></li>
-		<li class=''><a href='/users/sort-reputation'>Most Reputation</a></li>
-		<li class=''><a href='/users/search'>Search</a></li>
+		<li class=''><a href='/users/latest'>neuste Users</a></li>
+		<li class=''><a href='/users/sort-posts'>meiste Posts</a></li>
+		<li class=''><a href='/users/sort-reputation'>höhstes Ansehen</a></li>
+		<li class=''><a href='/users/search'>Suchen</a></li>
 	</ul>
 
 	<br />
 	<div class="search {search_display} well">
 
 		<div class="input-group">
-			<input class="form-control" id="search-user" type="text" placeholder="Enter a username to search"/>
+			<input class="form-control" id="search-user" type="text" placeholder="Benutzer durchsuchen"/>
 	        <span class="input-group-addon">
 	        	<span id="user-notfound-notify"><i class="icon icon-circle-blank"></i></span>
 	        </span>
@@ -41,7 +41,7 @@
 	</ul>
 
 	<div class="text-center {loadmore_display}">
-		<button id="load-more-users-btn" class="btn btn-primary">Load More</button>
+		<button id="load-more-users-btn" class="btn btn-primary">mehr laden</button>
 	</div>
 </div>
 

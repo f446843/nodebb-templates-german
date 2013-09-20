@@ -1,13 +1,13 @@
 <ol class="breadcrumb">
-	<li><a href="/">Home</a></li>
-	<li class="active">Search</li>
+	<li><a href="/">Übersicht</a></li>
+	<li class="active">Suche</li>
 </ol>
 
 <div class="category search">
 	<div class="">
 		<ul id="topics-container" data-search-query="{search_query}">
-		<h3>Topics</h3>
-		<div class="alert alert-info {show_no_topics}">No topics found!</div>
+		<h3>Themen</h3>
+		<div class="alert alert-info {show_no_topics}">Kein Thema gefunden!</div>
 		<!-- BEGIN topics -->
 		<a href="../../topic/{topics.slug}" id="tid-{topics.tid}">
 			<li class="category-item">
@@ -23,8 +23,8 @@
 			</li>
 		</a>
 		<!-- END topics -->
-		<h3>Posts</h3>
-		<div class="alert alert-info {show_no_posts}">No posts found!</div>
+		<h3>Beiträge</h3>
+		<div class="alert alert-info {show_no_posts}">Keinen Beitrag gefunden!</div>
 		<!-- BEGIN posts -->
 		<a href="../../topic/{posts.topicSlug}#{posts.pid}" id="tid-{posts.tid}">
 			<li class="category-item">

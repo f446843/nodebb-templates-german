@@ -1,8 +1,8 @@
 		<div class="alert alert-danger">
 			<p>
-				Your browser does not seem to support javascript. As a result, your viewing experience will be diminished, and you have been placed in <strong>read-only mode</strong>.
+				Dein Browser scheint kein Javascript zu unterstützen. Als dessen Folge ist dein Nutzungserlebnis eingeschränkt und du befindest dich im <strong>Nur-Lesen Modus</strong>.
 			</p>
 			<p>
-				Please download a browser that supports javascript, or enable it, if it disabled (i.e. NoScript).
+				Bitte verwende einen Browser der Javascript unterstützt, oder aktiviere es wenn du es in deineM Browser deaktiviert hast (z.B. NoScript).
 			</p>
 		</div>
