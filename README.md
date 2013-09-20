@@ -1,6 +1,5 @@
-nodebb-templates-german
-=======================
+**german nodebb templates / deutschsprachige NodeBB-Templates**
 
-german nodebb templates
+**EN:** (incomplete) translation of NodeBB templates to German
 
-deutschsprachige NodeBB-Templates (in arbeit...)
+**DE:** (unvollständige) Übersetzung der NodeBB-Templates auf deutsch
