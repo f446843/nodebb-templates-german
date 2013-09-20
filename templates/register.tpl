@@ -32,7 +32,7 @@
 					        	<span id="username-notify"><i class="icon icon-circle-blank"></i></span>
 					        </span>
 						</div>
-						<span class="help-block">Einen eindeutigen Benutzernamen. {minimumUsernameLength}-{maximumUsernameLength} Zeichen. Andere können dich anschreiben mit @<span id="yourUsername">benutzername</span>.</span>
+						<span class="help-block">Einen einmaligen Benutzernamen. {minimumUsernameLength}-{maximumUsernameLength} Zeichen. Andere können dich mit @<span id="yourUsername">benutzername</span> anschreiben.</span>
 					</div>
 				</div>
 				<div class="form-group">
