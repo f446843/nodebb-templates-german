@@ -5,3 +5,5 @@
 **DE:** (unvollständige) Übersetzung der NodeBB-Templates auf deutsch
 
 [check out NodeBB](http://github.com/designcreateplay/NodeBB)
+
+![NodeBB auf Deutsch](http://i.imgur.com/s7NKjg8.png)
